@@ -10,6 +10,10 @@ const {
 
 const router = new express.Router();
 
+router.post("/", (req, res) => {
+  res.send("Task Manager API Home Page");
+});
+
 router.post("/users", async (req, res) => {
   try {
     const user = new User(req.body);
