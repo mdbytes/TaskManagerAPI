@@ -10,7 +10,7 @@ const {
 
 const router = new express.Router();
 
-router.post("/", (req, res) => {
+router.get("/", (req, res) => {
   res.send("Task Manager API Home Page");
 });
 
