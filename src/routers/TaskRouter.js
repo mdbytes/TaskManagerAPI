@@ -96,11 +96,11 @@ router.delete("/tasks/:id", auth, async (req, res) => {
       owner: req.user._id,
     });
     if (!task) {
-      return res.status(404).send();
+      throw new Error("Task not found");
     }
-    res.send(task);
+    res.status(200).send();
   } catch (e) {
-    res.status(500).send(e);
+    res.status(400).send(e);
   }
 });
 
