@@ -1,6 +1,8 @@
 # TaskManagerAPI
 
-TaskManagerAPI represents a RESTful Web Service which can be used for creating and managing application users as well as comprehensive task management. The TaskManagerAPI has designed operations which allow front-end users to;
+TaskManagerAPI represents a RESTful Web Service which can be used for creating and managing application users as well as comprehensive task management. The service was built using Node.js, Express, and MongoDB with Mongoose. Comprehensive testing was performed with the Jest testing framework.
+
+The TaskManagerAPI has designed operations which allow front-end users to;
 
 1.  Establish new users with as little as a name, email address, and password.
 2.  Store the user credentials in a MongoDB database with passwords hashed for security purposes.
@@ -14,7 +16,6 @@ TaskManagerAPI represents a RESTful Web Service which can be used for creating a
 6.  Depending on user preference, emails can be sent to the user daily for tasks which are due that day,
     overdue tasks, or a reminder of all future or undated tasks.
 7.  Similarly, users can retrieve lists of all tasks based on search criteria.
-8.  Using the Jest testing framework, comprehensive tests have been conducted for the system.
 
 This application was orignally developed as part of the following course: "The complete node.js developer course" by Andrew Mead which can be found at: https://www.udemy.com/course/the-complete-nodejs-developer-course-2/
 
