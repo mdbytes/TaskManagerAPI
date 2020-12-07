@@ -1,9 +1,18 @@
 body {
-  font-size: 1.25em;
+  font-size: 1.5em;
+  background-color: lightgoldenrodyellow;
 }
 
 main {
   margin: 2em 0 8em 0;
+}
+
+#landing-content {
+  height: 100vh;
+}
+
+#api-details {
+  height: 100vh;
 }
 
 h1,
@@ -15,7 +24,7 @@ h4 {
 }
 
 #image-holder {
-  width: 25%;
+  width: 25vw;
   margin: 0 auto;
 }
 
@@ -23,21 +32,39 @@ img {
   width: 100%;
 }
 
-table {
-  border: 1px solid black;
-  width: 80%;
+.button-holder {
+  width: 300px;
+  height: auto;
   margin: 0 auto;
 }
 
-table thead th {
-  padding: 0.5em;
+button {
+  background-color: darkcyan;
+  color: white;
+  width: 100%;
+  padding: 1em;
+  font-size: 150%;
 }
 
-table tr td {
-  padding: 0.5em;
-  border: 1px solid black;
+button:hover {
+  background-color: white;
+  color: darkcyan;
 }
 
-table td:nth-child(1) {
-  width: 30%;
+#contact-form {
+  width: 50vw;
+  margin: 0 auto;
+}
+
+#contact-form label {
+  font-weight: bold;
+}
+
+#contact-form input {
+  width: 100%;
+}
+
+#contact-form textarea {
+  width: 100%;
+  margin-bottom: 2em;
 }
